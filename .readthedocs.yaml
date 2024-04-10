@@ -7,4 +7,4 @@ build:
     python: "3.12"
   commands: 
     - mkdir --parents _readthedocs/html/
-    - cp --recursive doc/* _readthedocs/html/
+    - cp --recursive docs/* _readthedocs/html/
