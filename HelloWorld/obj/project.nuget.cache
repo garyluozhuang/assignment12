@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ND+fpPAyb2o9KVw7lhW61jbKft7yzLMGNq/GyElbxQMBLZ8amO9y3tPdQikrgF8p262814tGPr//7OCniO1Avg==",
+  "success": true,
+  "projectFilePath": "/Users/luozhuang/CS509/HelloWorld/HelloWorld/HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "/Users/luozhuang/.nuget/packages/microsoft.codeanalysis.netanalyzers/8.0.0/microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
