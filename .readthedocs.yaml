@@ -5,6 +5,8 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-
-sphinx:
-  configuration: docs/html/conf.py
+  jobs:
+    pre_build:
+    # Note that this HTML won't be automatically uploaded,
+    # unless your documentation build includes it somehow.
+      - doxygen
