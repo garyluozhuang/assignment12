@@ -1,0 +1,5 @@
+build_script:
+  - dotnet format
+  - dotnet build HelloWorld/HelloWorld.csproj
+  - dotnet test HelloWorldTest/HelloWorldTest.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  - doxygen Doxyfile
