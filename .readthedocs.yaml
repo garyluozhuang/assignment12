@@ -1,2 +1,7 @@
+build:
+  os: ubuntu-22.04
+  tools:
+    .NET: "8.0"
+
 sphinx:
   configuration: docs
